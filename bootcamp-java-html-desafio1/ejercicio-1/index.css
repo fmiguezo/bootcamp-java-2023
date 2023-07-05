@@ -1,0 +1,49 @@
+html {
+  background-color: #edf7ff;
+}
+body {
+  font-family: "Asap", sans-serif;
+  font-size: 25pt;
+  color: #04146c;
+  padding: 20px;
+  max-width: 870px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: "MuseoModerno", sans-serif;
+  font-size: 88pt;
+  font-weight: bold;
+  color: #0a2ff1;
+  margin-bottom: 10px;
+}
+h2 {
+  font-family: "Asap", sans-serif;
+  font-size: 39pt;
+  color: #0a2ff1;
+  margin-bottom: 35px;
+}
+h3 {
+  font-family: "MuseoModerno", sans-serif;
+  font-size: 36pt;
+  font-weight: bold;
+  color: #0a2ff1;
+}
+h4 {
+  font-family: "MuseoModerno", sans-serif;
+  font-size: 149pt;
+  font-weight: bold;
+  color: #8a9af1;
+}
+strong {
+  font-weight: bold;
+}
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 15px;
+}
+p {
+  margin-bottom: 20px;
+}

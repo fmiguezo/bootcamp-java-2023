@@ -1,0 +1,64 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.fecha {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 50pt;
+  color: #0a2ff1;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.blackk {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 148pt;
+  color: white;
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-height: 220px;
+}
+.friday {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 163pt;
+  color: black;
+  background-color: white;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.descuento {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 36pt;
+  margin-bottom: 15px;
+  color: #0a2ff1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-height: 120px;
+}
+.descuento strong {
+  font-weight: 900;
+  font-size: 36pt;
+}
+.cincuenta {
+  color: white;
+  background-color: black;
+  font-weight: 900;
+}
+.cierre {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 44pt;
+  color: #0a2ff1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
