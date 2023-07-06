@@ -1,0 +1,39 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  width: 800px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 59pt;
+  color: #0a2ff1;
+  margin-bottom: 30px;
+}
+strong {
+  background-color: #3ffff3;
+}
+p {
+  font-weight: medium;
+  font-size: 23pt;
+  color: #0a2ff1;
+  margin-bottom: 15px;
+}
+.container {
+  position: relative;
+  width: 400px;
+}
+.imagen {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.celu {
+  z-index: 2;
+  width: 400px;
+}
+.fondo {
+  z-index: 1;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+}
