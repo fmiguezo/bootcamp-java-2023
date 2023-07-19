@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo {
+  font-family: "Mulish", sans-serif;
+  font-size: 18pt;
+  color: #04146c;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+input,
+button {
+  width: 500px;
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  border: 1px solid #414166;
+  outline: none;
+}
+
+input {
+  font-size: 14pt;
+  color: #414166;
+}
+
+button {
+  font-size: 15pt;
+  font-weight: 600;
+  background-color: #0a2ff1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.separador {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: none;
+  height: 1px;
+  width: 100%;
+  background-color: #414166;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links a {
+  font-size: 14pt;
+  color: #0a2ff1;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
