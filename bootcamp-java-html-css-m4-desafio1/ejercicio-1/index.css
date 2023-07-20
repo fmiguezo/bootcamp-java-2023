@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Coolvetica Regular";
+  src: url("/bootcamp-java-html-css-m4-desafio1/Recursos/Ejercicio1/Recursos/coolvetica-rg.otf") format("otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Light";
+  src: url("/bootcamp-java-html-css-m4-desafio1/Recursos/Ejercicio1/Recursos/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/bootcamp-java-html-css-m4-desafio1/Recursos/Ejercicio1/Recursos/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  text-align: center;
+  width: 1000px;
+}
+
+h1 {
+  font-family: "Coolvetica Regular", sans-serif;
+  font-size: 120px;
+  color: #0a2ff1;
+}
+
+p {
+  font-family: "Roboto Light", sans-serif;
+  font-size: 40px;
+  color: #04146c;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  border: 3px solid #0a2ff1;
+  padding: 10px 60px;
+  margin: 20px;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #0a2ff1;
+}
+
+.btn-secondary {
+  color: #04146c;
+  background-color: #ffffff;
+}

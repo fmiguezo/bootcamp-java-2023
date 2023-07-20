@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+
+@font-face {
+  font-family: "Coolvetica Regular";
+  src: url("/bootcamp-java-html-css-m4-desafio1/Recursos/Ejercicio1/Recursos/coolvetica-rg.otf") format("otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Coolvetica Regular", sans-serif;
+  font-size: 120px;
+  color: #0a2ff1;
+  margin-bottom: 0px;
+  margin-left: 80px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #04146c;
+  margin-left: 85px;
+}
+
+h2 strong {
+  font-weight: 700;
+}
+
+.italic {
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  color: #04146c;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 900;
+  color: #04146c;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #04146c;
+}
+
+.container {
+  width: 24%;
+  background-color: #eff2ff;
+  padding: 30px;
+}
+
+#puntuacion {
+  width: 40%;
+}
+
+.container img {
+  width: 30%;
+}
