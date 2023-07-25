@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
+h1.display-3,
+h3.card-subtitle,
+p.card-text,
+button.btn {
+  font-family: "Mulish", sans-serif !important;
+  color: #04146c;
+  font-weight: 700;
+}
+h1.display-3 {
+  font-size: 4rem;
+}
+h2.card-title {
+  font-size: 2.5rem;
+  color: #0a2ff1;
+}
+h3.card-subtitle {
+  font-size: 1.5rem;
+}
+p.card-text,
+button.btn {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+button.btn {
+  border-color: #0a2ff1;
+}
+.card-img-small {
+  max-width: 250px;
+  height: auto;
+  align-self: center;
+}
