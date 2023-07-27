@@ -1,0 +1,20 @@
+body {
+  font-family: "Source Sans", sans-serif;
+  color: #04146c;
+}
+.canio-title {
+  font-size: 62pt;
+  font-weight: 900;
+}
+.italic {
+  font-style: italic;
+}
+.descripcion {
+  font-size: 16pt;
+}
+.small-caps {
+  font-variant: small-caps;
+}
+.btn-primary {
+  background-color: #04146c;
+}
