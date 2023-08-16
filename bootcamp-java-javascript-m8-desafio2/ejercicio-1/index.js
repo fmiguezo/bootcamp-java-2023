@@ -31,23 +31,25 @@ function imprimirTabla() {
 function calcularResultado(detalle) {
   let totalIngresos = 0;
   let totalEgresos = 0;
-  let resultado = 0;
 
   detalle.forEach((mes) => {
     totalIngresos += mes.ingreso;
     totalEgresos += mes.egreso;
   });
 
-  resultado = totalIngresos - totalEgresos;
+  return totalIngresos - totalEgresos;
+}
 
+function informarEstado(resultado) {
   if (resultado > 0) {
-    return `Resultado: ${resultado}. El flujo de caja genera ganancias.`;
+    return 1;
   } else if (resultado < 0) {
-    return `Resultado: ${resultado}. El flujo de caja genera pérdidas.`;
+    return -1;
   } else {
-    return `Resultado: ${resultado}. El flujo de caja no genera ni pérdidas ni ganancias.`;
+    return 0;
   }
 }
 
-const resultado = calcularResultado(detallesFlujo);
-document.getElementById("resultado").textContent = resultado;
+const estado = informarEstado(calcularResultado(detallesFlujo));
+console.log(estado);
+document.getElementById("resultado").textContent = `Estado: ${estado}`;
